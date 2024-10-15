@@ -1,6 +1,6 @@
 # DivRec
 
-**DivRec** é um desafio avançado em PHP utilizando Laravel, focado em cálculos financeiros complexos, envolvendo percentuais e divisão de receitas entre investidores. O sistema deve calcular a distribuição de receitas com base em taxas de administração, bônus de performance e penalidades financeiras. O objetivo é garantir precisão nos cálculos e transparência para os investidores.
+**DivRec** é um desafio avançado em PHP utilizando Laravel, focado em cálculos financeiros complexos, envolvendo percentuais e divisão de receitas entre investidores. O sistema deve calcular a distribuição de receitas com base em taxas de administração, bônus de performance e penalidades em caso de receitas baixas.
 
 ## Descrição do Desafio
 
@@ -94,8 +94,6 @@ php artisan test
 
 ## Exemplos de Dados
 
-Abaixo estão alguns exemplos de dados que podem ser usados para simular cenários:
-
 ### Cenário 1: Receita Alta
 
 - **Receita Total**: R$ 150.000,00
@@ -104,8 +102,6 @@ Abaixo estão alguns exemplos de dados que podem ser usados para simular cenári
   - Investidor B: 20% de participação
   - Investidor C: 10% de participação
   - Investidor D: 40% de participação
-
-Neste cenário, o sistema deve calcular a taxa de administração, aplicar a distribuição percentual entre os investidores e aplicar o bônus para os investidores que possuem mais de 20% de participação.
 
 ### Cenário 2: Receita Baixa com Multa
 
@@ -116,4 +112,6 @@ Neste cenário, o sistema deve calcular a taxa de administração, aplicar a dis
   - Investidor C: 35% de participação
   - Investidor D: 25% de participação
 
-Aqui, o sistema deve aplicar a multa de 10% sobre a receita antes de fazer a distribuição proporcional entre os investidores.
+## Envio para Revisão
+
+Após concluir o desafio, por favor envie o código para revisão para o e-mail **[contato@renant.com.br](mailto:contato@renant.com.br)**. Certifique-se de incluir as instruções para rodar o projeto, além de quaisquer detalhes relevantes sobre os cálculos realizados.
